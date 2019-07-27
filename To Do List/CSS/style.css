@@ -1,0 +1,61 @@
+.bar{
+    float: right;
+}
+hr{
+    margin-top: 0;
+    border: 0.5px solid #212529;
+}
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: inset 0px 0px 1px #212529, 0px 0px 7px #212529 ;
+}
+label{
+    color: #212529;
+}
+.footer {
+    color: rgb(148, 148, 148);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 11px;
+}
+.drp{
+    border-color: #212529;
+    box-shadow: inset 0px 0px 1px #212529, 0px 0px 7px #212529 ; 
+}
+.dropa{
+    color: #212529;
+}
+.dropa:hover{
+    color: #212529;
+    background-color: white;
+}
+img{
+    width: 100%;
+}
+.card.comment {
+    margin-bottom: 16px;
+    position: relative;
+}
+.card.comment .card-meta {
+    align-self: flex-end;
+    margin: 8px;
+    margin-top: -8px;
+}
+.card.comment .deleteCommentForm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    z-index: 777777;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card.comment:hover .deleteCommentForm {
+    display: flex;
+}
+  
